@@ -44,6 +44,15 @@ module.exports = {
         // variables: defaults to variables needed for a search query
        // variables: someObject
       }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Roboto"],
+          urls: ["src/static/fonts/fonts.css"],
+        },
+      },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
