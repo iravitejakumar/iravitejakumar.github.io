@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/iravitejakumar.github.io",
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -34,10 +35,10 @@ module.exports = {
         url: 'https://api.github.com/graphql',
   
         // token: required by the GitHub API
-        token: `89b36e59d44b53df4b56a602df750d907aa1b714`
+        token: `89b36e59d44b53df4b56a602df750d907aa1b714`,
   
         // GraphQLquery: defaults to a search query
-        //graphQLQuery: anotherString,
+        // graphQLQuery: anotherString,
   
         // variables: defaults to variables needed for a search query
        // variables: someObject
