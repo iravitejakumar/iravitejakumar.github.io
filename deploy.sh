@@ -4,7 +4,6 @@ REPOSITORY=$AUTHOR.github.io
 # This script assumes that node_modules and dist folders exist in source branch.
 # To create them, just run `npm run deploy` or `yarn deploy`.
 git checkout source
-git branch -D master
 
 # creates new history-less branch master deleting every tracked file
 git checkout --orphan master
@@ -19,7 +18,7 @@ echo ".travis.yml" >> .gitignore
 # moves dist files in place, and copies README.md from source branch
 mv public/* .
 rm -rf public
-git checkout source README.md
+git checkout master README.md
 
 echo "Committing into master"
 # adds everything and commits to master
