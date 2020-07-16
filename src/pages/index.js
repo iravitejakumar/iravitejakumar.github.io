@@ -8,14 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Hi I am Ravi Teja Kumar Isetty</h1>
     <p>Welcome to my portfolio site.</p>
     <p>Site is under construction</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    {/* <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
   </Layout>
 )
 
