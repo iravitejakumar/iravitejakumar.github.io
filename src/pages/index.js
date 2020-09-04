@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to my portfolio site.</p>
     <p>Site is under construction</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <Image alt="Gatsby in Space" filename="gatsby-astronaut.png" />
     </div>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
