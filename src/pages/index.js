@@ -7,8 +7,9 @@ import Layout from '../components/Layout';
 import FadeIn from '../components/FadeIn';
 import SEO from '../components/seo';
 import GoogleMe from '../components/GoogleMe';
+import footerImg from '../assets/hero.svg';
 
-class BlogPageHome extends React.Component{
+class BlogPageHome extends React.Component {
   constructor(props) {
     super(props);
     this.themer = this.themer.bind(this);
@@ -26,13 +27,13 @@ class BlogPageHome extends React.Component{
   getPrevTheme() {
     return window.__dkBlogTheme;
   }
-  
+
   themer() {
     /* All other calls to themer */
     const oldTheme = this.state.theme;
     const newTheme = (oldTheme === 'dark') ? 'light' : 'dark';
-    if (typeof(window) !== 'undefined') {
-      this.setState({ theme: newTheme});
+    if (typeof (window) !== 'undefined') {
+      this.setState({ theme: newTheme });
       document.body.className = newTheme;
       window.__dkBlogTheme = newTheme;
       window.localStorage.setItem('dkBlogTheme', newTheme);
@@ -40,24 +41,35 @@ class BlogPageHome extends React.Component{
   }
 
   render() {
-    const {title, description, lang, keywords, ogUrl, ogType} = this.props;
+    const { title, description, lang, keywords, ogUrl, ogType } = this.props;
     return (
       <Layout className="mh100" theme={this.state.theme} themer={this.themer}>
-        <SEO title={title} description={description} lang={lang}keywords={keywords} ogUrl={ogUrl} ogType={ogType}/>
+        <SEO title={title} description={description} lang={lang} keywords={keywords} ogUrl={ogUrl} ogType={ogType} />
         <div className="mw960">
           <div className=" margin10 textcenter">
             <div className="mB10 width100 textcenter oh">
-              <FadeIn className="ico20 inline " style={{ animationDelay: '0.01s', lineHeight: '1.7em'}}>Hey,</FadeIn>
-              <FadeIn className="ico20 inline " style={{ animationDelay: '0.02s', lineHeight: '1.7em'}}>{' I\'m'}</FadeIn>
+              <FadeIn className="ico20 inline " style={{ animationDelay: '0.01s', lineHeight: '1.7em' }}>Hey,</FadeIn>
+              <FadeIn className="ico20 inline " style={{ animationDelay: '0.02s', lineHeight: '1.7em' }}>{' I\'m'}</FadeIn>
             </div>
             <div className="mB25 width100 textcenter oh">
-              <FadeIn className="fs40 inbl " style={{ animationDelay: '0.05s', lineHeight: '1.7em'}}><h1 className="fs40 myname">Ravi Teja Kumar Isetty</h1></FadeIn>
+              <FadeIn className="fs40 inbl " style={{ animationDelay: '0.05s', lineHeight: '1.7em' }}><h1 className="fs40 myname">Ravi Teja Kumar Isetty</h1></FadeIn>
             </div>
           </div>
           <div className="mt35">
-            <Avatar/>
-            <ContactMe theme={this.state.theme}/>
+            <Avatar />
+            <ContactMe theme={this.state.theme} />
             {/* <GoogleMe/> */}
+            {/* <div style={{ padding: '0rem 1.5rem'}}>
+              <div class="footer" style={{
+                '-webkit-box-flex': 1,
+                'flex-grow': 1,
+                margin: '0 auto',
+                position: 'relative',
+                width: 'auto'
+              }}>
+                <img alt="footerImg" width="100%" style={{height: 'auto'}} src={footerImg} />
+              </div>
+            </div> */}
           </div>
         </div>
       </Layout>

@@ -791,3 +791,10 @@ body.dark .gatsby-highlight {
 .scaleOnHover.google:hover {
   color: var(--themeColor)
 }
+
+@media screen and (min-width: 769px) {
+.footer img {
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+}
+}

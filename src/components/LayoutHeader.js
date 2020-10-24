@@ -31,7 +31,7 @@ class LayoutHeader extends React.Component{
               <div><MdClose className="themeHover hand menuFont lh2em closeBtn" onClick={()=>{ this.setState({ showMenu: false})}}/></div>
               <div className="transCenter menuHeadingContainer widthOptimize textcenter">
                 <Link to='/'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/' ? 'themeColor' : '')}>Home</div></Link>
-                <Link to='/blogs'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/blogs' ? 'themeColor' : '')}>Blogs</div></Link>
+                <Link to='/blogs-list'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/blogs-list' ? 'themeColor' : '')}>Blogs</div></Link>
                 <Link to='/portfolio'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/portfolio' ? 'themeColor' : '')}>Portfolio</div></Link>
                 <Link to='/skills'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/skills' ? 'themeColor' : '')}>Skills</div></Link>
                 <Link to='/aboutme'><div className={'themeHover hand menuFont fb lh2em ' + (currPath === '/aboutme' ? 'themeColor' : '')}>About Me</div></Link>
@@ -53,7 +53,7 @@ class LayoutHeader extends React.Component{
                 <div className="">Home</div>
                 {/* <div className={'borderMenu ' + (currPath === '/' ? 'width100' : '')}></div> */}
               </Link>
-              <Link className={'inbl marginR5p hideless500w ' + (currPath === '/blogs' ? 'fb' : '')} to="/blogs">
+              <Link className={'inbl marginR5p hideless500w ' + (currPath === '/blogs-list' ? 'fb' : '')} to="/blogs-list">
                 <div className="">Blogs</div>
                 {/* <div className={'borderMenu ' + (currPath === '/blogs' ? 'width100' : '')}></div> */}
               </Link>
