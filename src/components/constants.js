@@ -11,7 +11,7 @@ export const portfolioDetails = {
   'Pramati Technologies Pvt Ltd': {
     date: '2018 Feb - Present',
     details: [
-      ['Nielsen-Connect Chart Library', '', 'Developed a chart library using D3 and Angular. Apart from implementing routine charts like Bar Chart, Line Chart etc. I have implemented a custom chart called arrow chart which visually looks like circular shaped DAG(Directed Acyclic Graph).', 'Dec 2019 - Present'],
+      ['Nielsen-Connect Chart Library', '', 'Developed a chart library using D3 and Angular. Apart from implementing routine charts like Bar Chart, Line Chart etc. I had implemented a custom chart called arrow chart which visually looks like circular shaped DAG(Directed Acyclic Graph).', 'Dec 2019 - Present'],
       ['Nielsen-IPM', '', 'Built components library using Angular, Polymer and D3 and integrated library with IPM frontend app.', 'Apr 2018 - Dec, 2019'],
     ]
   },
@@ -19,7 +19,7 @@ export const portfolioDetails = {
     date: '2015 Dec - 2018 Feb',
     details: [
       ['NVIDIA-IDM', '', 'Implemented users management solution for Nvidia using Angular 4.x', 'Nov, 2016 - Jan, 2018'],
-      ['Innominds-Access', '', 'Implemented a office visitors tracking system using MEAN Stack', 'Feb, 2016 - Oct, 2016']
+      ['Innominds-Access', '', 'Implemented an office visitors tracking system using MEAN Stack', 'Feb, 2016 - Oct, 2016']
     ]
   }
 }
