@@ -2,7 +2,7 @@ export const portfolioDetails = {
   'Open Source Contributions': {
     date: '',
     details: [
-      ['origami', 'https://github.com/hotforfeature/origami', 'It is bridge library to use Polymer component with Angular. I made it compatible with Angular 9.'],
+      ['origami', 'https://github.com/hotforfeature/origami', 'It is a bridge library to use Polymer components with Angular. I made it compatible with Angular 9.'],
       ['system-design-primer', 'https://github.com/donnemartin/system-design-primer/', 'It is an Open Source project for learning system design. I contributed to documentation for it.'],
       ['deno-mongo-api', 'https://github.com/iravitejakumar/deno-mongo-api', 'Example for building REST APIS with deno and MongoDB.'],
       ['ngrx-helpers', 'https://github.com/madhusudhand/ngrx-helpers', 'A library to simplify development with ngrx store.']
