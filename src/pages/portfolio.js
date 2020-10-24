@@ -45,7 +45,7 @@ class BlogPageHome extends React.Component{
   render() {
     return (
       <Layout theme={this.state.theme} themer={this.themer}>
-        <SEO title="Dhilip's Jounrey | dhilipkmr portfolio"/>
+        <SEO title="Ravi Teja Kumar's Jounrey | iravitejakumar portfolio"/>
         <div className="">
           <div className=" width100 textcenter oh">
             <FadeIn className="fs35 padT20 inline lh2em">Journey of the </FadeIn>

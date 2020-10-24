@@ -2,12 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Ravi Teja | Portfolio`,
     description: `Ravi Teja | Portfolio`,
-    author: `dhilipkmr`,
+    author: `Ravi Teja Kumar Isetty`,
     keywords: ['Ravi Teja Kumar Isetty', 'iravitejakumar', 'frontend blogs'],
     ogType: 'website',
     ogUrl: 'http://iravitejakumar.github.io',
     lang: 'en',
-    image: 'https://raw.githubusercontent.com/dhilipkmr/webapp-samples/master/images/website/profilePic.png'
+    image: 'https://raw.githubusercontent.com/iravitejakumar/webapp-samples/master/images/website/profilePic.png'
   },
   pathPrefix: '/',
   plugins: [
@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dhilip's Journey`,
-        short_name: `Dhilip's Journey`,
+        name: `Ravi Teja Kumar's Journey`,
+        short_name: `Ravi Teja Kumar's Journey`,
         start_url: `/`,
         background_color: `#1f1f1f`,
         theme_color: `#235bc1`,

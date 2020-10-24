@@ -57,7 +57,7 @@ class Blogs extends React.Component{
     const {selectedId = '', post} = this.state;
     return (
       <Layout className="mh100" theme={this.state.theme} themer={this.themer}>
-        <SEO title="Dhilip's Jounrey | dhilipkmr blogs"/>
+        <SEO title="Ravi Teja Kumar's Jounrey | iravitejakumar blogs"/>
         <div>
           <div className="textcenter showBlogHead600">
             <div> A Series of</div>

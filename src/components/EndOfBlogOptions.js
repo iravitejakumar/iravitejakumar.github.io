@@ -3,7 +3,7 @@ import {FaShare, FaTwitter} from 'react-icons/fa';
 import {IoLogoWhatsapp} from 'react-icons/io';
 import profilePic from '../assets/profilePic.png';
 
-const LINKEDIN_URL = 'https://www.linkedin.com/in/dhilipkmr';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/iravitejakumar';
 // const GI_LINKEDIN_URL = 'https://www.linkedin.com/company/goibibo/';
 
 const shareBlog = (props) => {
@@ -17,7 +17,7 @@ const shareBlog = (props) => {
     .catch((error) => console.log('Error sharing', error));
   }
 }
-const URL = "https://www.dhilipkmr.dev";
+const URL = "https://iravitejakumar.github.io";
 const Avatar = (props) => {
   return (
     <div className="mw960 pad10 ">
@@ -32,7 +32,7 @@ const Avatar = (props) => {
         <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
           <img alt="profileImg" className="footerAvatar marginL15" style={{ margin: 'inherit' }} width="75" height="75" src={profilePic}/>
         </a>
-        <div className="posAbs descriptionTxtColor" style={{top: '20px', left: '115px'}}>A blog by <a rel="noopener noreferrer" href={LINKEDIN_URL} target="_blank" className="themeColor">Dhilip kumar</a></div>
+        <div className="posAbs descriptionTxtColor" style={{top: '20px', left: '115px'}}>A blog by <a rel="noopener noreferrer" href={LINKEDIN_URL} target="_blank" className="themeColor">Ravi Teja Kumar Isetty</a></div>
       </div>
     </div>
   );

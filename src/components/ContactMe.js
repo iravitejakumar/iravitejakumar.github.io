@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FadeIn from './FadeIn';
-import { FaTwitter, FaDev, FaGithub, FaLinkedinIn, FaGlobe } from 'react-icons/fa';
+import { FaTwitter, FaMedium, FaGithub, FaLinkedinIn, FaGlobe } from 'react-icons/fa';
 
 let CONTACT_DETAILS = [];
 CONTACT_DETAILS.push(['https://github.com/iravitejakumar',       <FaGithub/>,      'Github']);             // GITHUB_URL
 CONTACT_DETAILS.push(['https://linkedin.com/in/iravitejakumar/', <FaLinkedinIn/>,  'LinkedIn']);           // LINKEDIN_URL
-// CONTACT_DETAILS.push(['https://dev.to/iravitejakumar',           <FaDev/>,         'Dev']);                   // DEV URL
+CONTACT_DETAILS.push(['https://medium.com/@iravitejakumar',       <FaMedium/>,         'Medium']);           // Medium URL
 CONTACT_DETAILS.push(['https://twitter.com/iravitejakumar',     <FaTwitter/>,     'Twitter']);            // TWITTER_URL
 CONTACT_DETAILS.push(['https://iravitejakumar.github.io',         <FaGlobe/>,       'Website']);            // WEB_URL
 

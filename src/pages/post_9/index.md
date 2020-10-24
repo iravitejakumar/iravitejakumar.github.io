@@ -2,7 +2,7 @@
 path: "/blogs/memoization"
 date: "2019-04-21"
 title: "Implementing Memoization in Javascript"
-author: "Dhilip kumar"
+author: "Ravi Teja Kumar"
 timeToRead: "4"
 smallTitle: "Js Memoization"
 description: "To learn how to implement Memoization with simple Example"
@@ -170,8 +170,6 @@ First console.log() returns output after execution whereas the second one is ret
 ```
 
 Don't forget to Follow me for Interesting posts :)
-
-Find the CodePen Link [here](https://codepen.io/dhilipkmr/pen/PgeMxM?editors=0010)
 
 ![](https://media.giphy.com/media/fxsqOYnIMEefC/giphy.gif)
 

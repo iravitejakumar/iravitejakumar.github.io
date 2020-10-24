@@ -44,7 +44,7 @@ class AboutMe extends React.Component{
     const {mounted} = this.state;
     return (
       <Layout className="mh100" theme={this.state.theme} themer={this.themer}>
-        <SEO title="Dhilip's Jounrey | dhilipkmr aboutme"/>
+        <SEO title="Ravi's Jounrey | Ravi aboutme"/>
         <div>
           <div className="mw960">
             <div className="width100 textcenter oh" style={{ lineHeight: '1.7em'}}>

@@ -47,7 +47,7 @@ export default class Template extends React.Component {
     const ogimagePath = (ogimage && ogimage.childImageSharp && ogimage.childImageSharp.fixed) ? ogimage.childImageSharp.fixed.src : '';
     return (
       <Layout theme={theme} themer={this.themer}>
-        <SEO title={title + ' - dhilipkmr'} description={description + ' by dhilipkmr' } ogType="blogs" ogUrl={'https://www.dhilipkmr.dev' + path} image={ogimagePath}/>
+        <SEO title={title + ' - iravitejakumar'} description={description + ' by iravitejakumar' } ogType="blogs" ogUrl={'https://iravitejakumar.github.io' + path} image={ogimagePath}/>
         <div className="blogText lh2em lr05">
           <div className="mw960 pad20 ">
             <div className="marginB20">

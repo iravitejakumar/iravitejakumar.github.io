@@ -1,34 +1,26 @@
 export const portfolioDetails =  {
-  'Open Source': {
+  'Open Source Contributions': {
     date: '',
     details:[
-      ['YOUTUBE EXTENSION', 'https://chrome.google.com/webstore/detail/hecflpbbibegbikpciipfnkliakdikjm/publish-accepted?authuser=1', "Don\'t like youtube\'s suggestion? Choose which song should play next on the go.", 'Aug - Sep, 2019'],
-      ['IMDB EXTENSION', 'https://chrome.google.com/webstore/detail/imdb-ratings/aodmmndimojddogmhmpaemocbibnimkl?authuser=1', 'Just hover over the movie name you will be popped up with all those Information. You are not limited to any websites in particular.Alternatively, you can highlight a movie name and right-click to search it on IMDb.', 'Jan - Feb, 2019'],
-      ['EXPENSE MANAGER',       'https://exspensesmgr.herokuapp.com/login', 'Created an Expense Manager Mobile First Web application which involved End to End Full stack development using MongoDB, Express, React and Node(MERN) technologies. It provides the users with unique login to store their Expenses and the ability to monitor their daily expenses, spending rates and to Graphically visualise them', 'Dec-Jan, 2019'],
-      ['REACT RIPPLE',          'https://www.npmjs.com/package/ripple-react', 'Built an independent component in React which helps creating a Material Ripple / waterdrop effect on clicking a button or a card and published it on NPM', 'Jan 2019'],
-      ['RESUME BUILDER',        'https://github.com/dhilipkmr/aboutDhilip', 'An Open Source Project which helps people with building a New Resume for them just with the update in JSON', 'Mar-Apr, 2018']
+      ['origami',       'https://github.com/hotforfeature/origami', 'It is bridge library to use Polymer component with Angular. I made it compatible with Angular 9.'],
+      ['system-design-primer',       'https://github.com/donnemartin/system-design-primer/', 'It is an Open Source project for learning system design. I contributed to documentation for it.'],
+      ['deno-mongo-api',          'https://github.com/iravitejakumar/deno-mongo-api', 'Example for building REST APIS with deno and MongoDB.'],
+      ['ngrx-helpers',        'https://github.com/madhusudhand/ngrx-helpers', 'A library to simplify development with ngrx store.']
     ]
   },
-  'Goibibo': {
-    date: '2018 May - Present',
+  'Pramati Technologies Pvt Ltd': {
+    date: '2018 Feb - Present',
     details:[
-      ['FLIGHTS LISTING PAGE', '', 'Implemented Flights Search Results page from scratch which had Infinite Flights Loader, Sticky scrollable Filters and loading Indicators.', 'Apr - Jun, 2019'],
-      ['LANDING PAGE REVAMP', '', 'Worked on implementing the new UI changes done to Desktop Web Goibibo landing/flights Page. It includes effective changes to Multi-city implementation, introduced deferred image loading for carousels for better loading speed, Parallax effect and fading in effect on the background image and on-page anchor scroll', 'Jan - Feb, 2019'],
-      ['FARE TRENDS',         '', 'Developed an Independent React based SVG Line-graph component which plots Fares on different dates for a given data set', 'Sep - Oct, 2018'],
-      ['PWA MIGRATION',       '', 'Migrated Goibibo Flights Mobile Website to PWA from Booking till Traveller Details page', 'Jul - Aug, 2018'],
-      ['FARE CALENDAR',       '', 'Created Lazyloaded Fare Calendar to let user the Cheapest Fare upfront just by scrolling through dates.', 'May - Jun, 2018']
-    ]
-  },
-  'Oracle': {
-    date: '2016 Jan - 2018 Apr',
+      ['Nielsen-Connect Chart Library', '', 'Developed a chart library using D3 and Angular. Apart from implementing routine charts like Bar Chart, Line Chart etc. I have implemented a custom chart called arrow chart which visually looks like circular shaped DAG(Directed Acyclic Graph).', 'Apr 2018 - Dec, 2019'],
+      ['Nielsen-IPM', '', 'Built components library using Angular, Polymer and D3 and integrated library with IPM frontend app.', 'Apr 2018 - Dec, 2019'],
+     ]
+  }, 
+  'Innominds Software Pvt Ltd': {
+    date: '2015 Dec - 2018 Feb',
     details: [
-      ['TREE GRID',           '',  'Reduced the Page Loading time by implementing Lazy Load functionality as a part of Tree Grid', 'Nov - Jan, 2018'],
-      ['QUICK FILTERS',       '',  'Condition-based Record Filtering for Grids, based on Job\'s Start/End Time and Status', 'Sep - oct, 2017'],
-      ['DASHBOARD',           '',  'A Summary Dashboard on Data Transfers Status for each jobs to identify & rectify errors', 'Jun - Aug, 2017'],
-      ['QUICK SAVE',          '',  'Ability to immediately save Flows before the last screen which helped in faster modification of Flows', 'Jan - Feb, 2017'],
-      ['JOB SCHEDULE',        '',  'Implemented a Wizard which allows users to schedule a Job, based on their choice', 'Oct - Nov, 2016'],
-      ['OBJECT MANIPULATION', '',  'Provided the ability to modify the configurations for Out of the Box Flows', 'Feb - Apr, 2016']
-    ]
+      ['NVIDIA-IDM',           '',  'Implemented users management solution for Nvidia using Angular 4.x', 'Nov, 2016 - Jan, 2018'],
+      ['Innominds-Access', '', 'Implemented a office visitors tracking system using MEAN Stack', 'Feb, 2016 - Oct, 2016']
+     ]
   }
 }
 
@@ -96,11 +88,11 @@ export const technicalSkills2 = [
 
 export const introduction = {
   'description': ['> Hello there!',
-                '> I\'m Dhilip Kumar, as you know already 😅',
-                '> I am a Software Professional, working at Microsoft.',
-                '> I use Javascript, React, Redux and Node to create a Performant UI.',
-                '> I also Blog about some Interesting (Technical) stuffs that I create at DEV community',
-                '> I have few Open source projects and Npm Packages if you are interested :)',
+                '> I\'m Ravi Teja Kumar, as you know already 😅',
+                '> I am a Software Professional, working at Pramati, Hyderabad.',
+                '> I use Javascript, Angular and Node to create a Performant UI.',
+                '> I also Blog about some Interesting stuffs.',
+                '> I am an active Open Source Contributor',
                 '> What other things I do you ask?',
                 '> Well...',
                 '> I love Playing and watching Cricket.',

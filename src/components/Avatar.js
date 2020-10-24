@@ -14,7 +14,7 @@ const Avatar = () => {
       </div>
       <div className="marginT20">
         {/* <div className="padT10 width100 textcenter avatarInto oh">
-          <FadeIn className="lh2em" style={{ animationDelay: '0.6s' }}>a blog by <span><a href={LINKEDIN_URL} target="_blank" className="themeColor linkHand" rel="noopener noreferrer">dhilip</a></span></FadeIn>
+          <FadeIn className="lh2em" style={{ animationDelay: '0.6s' }}>a blog by <span><a href={LINKEDIN_URL} target="_blank" className="themeColor linkHand" rel="noopener noreferrer">iravitejakumar</a></span></FadeIn>
         </div> */}
         <div className="padT10 width100 textcenter avatarInto oh">
           <FadeIn className="lh2em" style={{ animationDelay: '0.15s' }}>Frontend Engineer @<a href="https://www.pramati.com/" target="_blank" rel="noopener noreferrer"><span className="linkHand">Pramati</span></a></FadeIn>

@@ -42,7 +42,7 @@ export default function HTML(props) {
       <script dangerouslySetInnerHTML={{
         __html:`
           (function() {
-            if (document.location.hostname.includes('dhilipkmr')) {
+            if (document.location.hostname.includes('iravitejakumar')) {
               const script = document.createElement('script');
               script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-137704645-1';
               script.async = true;

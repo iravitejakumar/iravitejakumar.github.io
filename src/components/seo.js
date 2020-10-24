@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title, ogUrl, ogType, image })
         { property: `twitter:title`, content: metaTitle },
         { property: 'twitter:description',content: metaDescription },
         { name: 'robots', content: 'index, follow'},
-        { rel: 'canonical', href: 'https://www.dhilipkmr.dev/'}
+        { rel: 'canonical', href: 'https://iravitejakumar.github.io/'}
       ].concat(
         keywords.length > 0 ?
         {

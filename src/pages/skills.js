@@ -65,7 +65,7 @@ class Skills extends React.Component{
   render() {
     return (
       <Layout className="mh100" theme={this.state.theme} themer={this.themer}>
-        <SEO title="Dhilip's Jounrey | dhilipkmr skills"/>
+        <SEO title="Ravi Teja Kumar's Jounrey | iravitejakumar skills"/>
         <div>
           <div className="mh90vh">
             <div className="width100 textcenter oh">
