@@ -1,61 +1,64 @@
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ravi Teja | Portfolio`,
+    description: `Ravi Teja | Portfolio`,
+    author: `dhilipkmr`,
+    keywords: ['Ravi Teja Kumar Isetty', 'iravitejakumar', 'frontend blogs'],
+    ogType: 'website',
+    ogUrl: 'http://iravitejakumar.github.io',
+    lang: 'en',
+    image: 'https://raw.githubusercontent.com/dhilipkmr/webapp-samples/master/images/website/profilePic.png'
   },
+  pathPrefix: '/',
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      }
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Dhilip's Journey`,
+        short_name: `Dhilip's Journey`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1f1f1f`,
+        theme_color: `#235bc1`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/profilePic.png`,
+        theme_color_in_head: false,
       },
     },
     {
-      resolve: `gatsby-source-github-api`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        // url: API URL to use. Defaults to  https://api.github.com/graphql
-        url: 'https://api.github.com/graphql',
-  
-        // token: required by the GitHub API
-        token: `89b36e59d44b53df4b56a602df750d907aa1b714`,
-  
-        // GraphQLquery: defaults to a search query
-        // graphQLQuery: anotherString,
-  
-        // variables: defaults to variables needed for a search query
-       // variables: someObject
+        plugins: [
+          'gatsby-remark-copy-images',
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              inlineCodeMarker: '÷',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+            }
+          }
+        ]
       }
-    },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["Roboto"],
-          urls: ["src/static/fonts/fonts.css"],
-        },
-      },
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+  ]
 }
